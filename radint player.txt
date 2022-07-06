@@ -1,0 +1,85 @@
+<html>
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+
+  <title>/</title> 
+
+  <link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=UA-177827164-1">
+
+  <link rel="preload" as="script" href="https://cdn.radiantmediatechs.com/rmp/6.2.3/js/rmp.min.js">
+
+ </head> 
+
+  <script src="https://cdn.radiantmediatechs.com/rmp/6.2.3/js/rmp.min.js" type="text/javascript"></script>
+
+  <script src="https://cdn.radiantmediatechs.com/rmp/6.2.3/js/rmp.min.js" type="text/javascript"></script>
+
+  <div id="rmpPlayer"></div> 
+
+  <script type="text/javascript">
+
+  var rand_nb =Math.floor(Math.random() * 2) + 1 
+
+    var src = {
+
+      hls: 'https://matchfree.xyz:443/live/aiirrrv3035-letssgooo/23210VgAE0p11/40.m3u8'
+
+      // You may provide different source types - the player will automatically pick the best option
+
+      // dash: 'https://your-dash-url.mpd'
+
+      // mp4: 'https://your-mp4-url.mp4'
+
+    };
+
+    // Then we set our player settings
+
+    var settings = {
+
+      licenseKey: 'eWZmZ2d2Y3BrdEAxNTMwNjA2',
+
+      src: src,
+
+      // The player will automatically resize itself based on context and those reference width/height values
+
+      width: 1000,
+
+      height: 500,
+
+      // Let us select a skin
+
+      skin: 's3',
+
+      // Let us add a poster frame to our player
+
+      contentMetadata: {
+
+        poster: [
+
+          'https://www3.0zz0.com/2021/09/14/16/161669937.jpg'
+
+        ]
+
+      }
+
+    };
+
+    var elementID = 'rmpPlayer';
+
+    var rmp = new RadiantMP(elementID);
+
+    // Initialization ... and done!
+
+    rmp.init(settings);
+
+  </script>
+
+ </body>
+
+</html>
+
+<script type='text/javascript'> if (window.location.protocol != "http:") { window.location.protocol = "http"; } </script>

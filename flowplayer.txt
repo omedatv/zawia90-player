@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="https://releases.flowplayer.org/7.1.2/skin/skin.css">
+    <link rel="stylesheet" href="flowplayer.background.css">
+<style>
+.flowplayer.is-ready:not(.is-poster) { background-color: #333; position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+.zawia-ply {font-size: 17px; color: #fff;text-align: center; font-family: Cairo, "Helvetica Neue", sans-serif; font-weight: bold;
+position: absolute; bottom: 0px; z-index: 2; } img.watermark { width: 10%; top: 32px; right: 110px; z-index: 1000; position: absolute;} 
+    </style>
+
+    <script src="https://releases.flowplayer.org/7.1.2/flowplayer.min.js"></script>
+    <script src="https://releases.flowplayer.org/hlsjs/flowplayer.hlsjs.light.min.js"></script>
+    <script src="flowplayer.background.js"></script>
+    <div id="content">
+      <div id="player"></div>
+    <script>
+    flowplayer('#player', {
+      ratio: 9/16,
+      background: true,
+      muted: false, // issue #7
+
+      //splash: true,
+      clip: {
+        title: 'بت تجريبي',
+        sources: [{
+          type: 'application/x-mpegurl',
+          src: 'https://admdn1ta.cdn.mgmlcdn.com/adsports1/smil:adsports1.stream.smil/chunklist_b450000_t64MzYwcA==.m3u8'
+        }, {
+          type: 'video/mp4',
+          src: 'https://edge.flowplayer.org/bauhaus.mp4'
+          
+          
+        }]
+      }
+    });
+    </script>
+<div class="zawia-ply" >www.zawia90.com</div>
+<div> <img class="watermark" src="https://i.ibb.co/VvyzsBZ/zawia90.png" alt="" /></div>

@@ -1,0 +1,143 @@
+
+  <meta charset="UTF-8"> 
+  <title>bein premium 1</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style>
+
+@font-face{font-family:'Cairo';font-style:normal;font-weight:700;src:local('Cairo Bold'),local('Cairo-Bold'),url(https://fonts.gstatic.com/s/cairo/v2/RLgQnjqLWN5-LcxkRZr1cBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');unicode-range:U+0600-06FF,U+200C-200E,U+2010-2011,U+FB50-FDFF,U+FE80-FEFC}*{margin:0;padding:0;outline:0;transition:all .5s ease;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-o-transition:all .5s ease}*,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{padding:0;border:0;outline:0;vertical-align:baseline;background:0 0}.fa{transition:all 0 ease;-webkit-transition:all 0 ease;-moz-transition:all 0 ease;-o-transition:all 0 ease}ins{text-decoration:underline}del{text-decoration:line-through}blockquote{font-style:italic;color:#888}dl,ul{list-style-position:inside;list-style:none;font-size:12px}ul li{list-style:none}caption,th{text-align:center}img{border:none;position:relative}a,a:visited{text-decoration:none;font-weight:400}a{color:#333}a:hover{color:#111}q:after,q:before{content:'محمد راغب'}p{margin:0}img{max-width:100%}
+
+
+
+.sharet{color:#fff;text-align:center;background:#0d47a1;font-size:11px;font-family:'Cairo';border-radius:4px;padding:0 27px;margin:10px 0 0 0;height:22px;line-height:22px}
+
+#sharec{position:absolute;z-index:999;left:10px;cursor:pointer}
+
+#sharex{position:absolute;width:100%;height:100%;z-index:9999;text-align:center;background:rgba(0,0,0,0.8);color: black}
+
+.sharep{position:absolute;cursor:pointer;left:10px}
+
+#channelif{padding:15% 0 0 0}
+
+.cbtn{color:#fff;border:0;text-align:center;background:#0d47a1;font-size:11px;font-family:'Cairo';border-radius:5px;height:30px;padding:0 10px;background-color:#015f0e;cursor:pointer}
+
+#tme { font-family: "Cairo",tahoma; position: fixed; z-index: 99999999;  right: 25px; width: 0px; height: 0px; text-align: center; border-radius: 50%; background-color: #0088cc; cursor: pointer; } #tme_message { position: absolute; bottom: 62px; right: -10px; width: 180px; padding: 10px;  } #tme_message:after, #tme_message:before { content: ''; position: absolute; bottom: -21px; right: 23px; border-style: solid; height: 0; width: 0; border-width: 10px; border-color: transparent; }  #tme_message p { margin: 0px 0; font-size: 12px; color: #8e8e8e; text-align: right; } .clossalert { position: absolute; right: 10px;font-size: 14px; }#tme_message a {    margin: 6px 4px; font-weight: bold; color: #FFF; background: #20910a; border-radius: 10px; display: inline-block; padding: 10px; text-decoration: none; }
+
+.video-container{padding-top:8px;margin-top:0;background:rgb(17,17,17);width:100%;overflow:hidden;max-width:100%;border-radius:15px 15px 0 0;position:relative}
+
+.filter-server{float:right;width:100%;clear:both;padding:0 10px}
+
+.filter-server .button{margin-bottom:3px;display:inline-block;cursor:pointer;padding:0 27px 0 13px;font-size:11px;color:rgb(0,0,0);height:22px;font-family:'Cairo';background:rgb(244,247,250);line-height:0;border-radius:5px;position:relative;overflow:hidden;border:0}
+
+.filter-server .button.active,.filter-server .button:hover{color:#fff;text-align:center;z-index: 3;background:#e10000}
+
+.filter-server .button::before{content:"";position:absolute;right:0;top:0;width:23px;height:22px;background-color:rgb(67,74,84);text-align:center;background-position:-43px -14px}
+
+.video-con{float:right;width:100%;margin:0;max-width:100%;overflow:hidden}
+
+.news-image img{width:100%}
+
+.code-aria{width:100%;float:right;overflow:hidden;display:block;padding:1px;margin:0 auto;clear:both;color:rgb(255,255,255);text-align:center;line-height:27px;font-weight:700;font-size:13px;padding:12px;margin-top:0;background:rgb(17,17,17);border-radius:0 0 15px 15px}
+
+.EmbedCode{background:rgb(60,59,59);display:flex;height:35px;border-radius:20px}
+
+.EmbedCodeIcon{position:relative;width:40px;height:40px;border-radius:20px;background:rgb(88,88,88);opacity:0.8;margin-top:-3px;min-width:40px;min-height:40px;text-align:center}
+
+.EmbedCodeIcon::before{content:'embed';text-transform:uppercase;font-size:7px;width:40px;height:14px;text-align:center;display:block;color:#fff;position:absolute;top:24px;left:1px;line-height:10px}
+
+.EmbedCodeIcon::after{position:absolute;top:6px;left:11px;width:20px;height:23px;background-image:url(https://kora-online.tv/wp-content/themes/kora-online/img/EmbedIcon.png);background-size:22px;background-repeat:no-repeat;content:"";background-position:center}
+
+.EmbedCodeButton{cursor:pointer;display:inline-block;line-height:35px;border-radius:20px;width:70px;text-align:center;transition:background-color .2s ease-in-out;position:relative;font-weight:700;background:rgb(88,88,88);color:rgb(202,202,202)}
+
+.clear.match-content{clear:both;width:100%;overflow:hidden;float:right;color:#333;padding:20px 2px}
+
+</style> 
+
+  <div id="sharec" style="display: block;" title="مشاركة القناة">
+   <div class="sharet" href="javascript:void(0)" onclick="document.getElementById('showother').style.display='block';document.getElementById('sharec').style.display='none'">
+    مشاركة
+   </div>
+  </div> 
+  <div class="showother" id="showother" style="display: none;"> 
+   <div id="sharex">
+    <div class="sharep" href="javascript:void(0)" onclick="document.getElementById('showother').style.display='none';document.getElementById('sharec').style.display='block'" title="إغلاق">
+     <div class="sharet">
+      إغلاق
+     </div>
+    </div> 
+    <div id="channelif">
+     <div class="formg">
+      <textarea id="copy" onclick="this.select();" onfocus="this.select();">&lt;iframe allowfullscreen='true' frameborder='0' height='500px' scrolling='no' src='https://omedaplayer.blogspot.com/p/blog-page.html' width='100%'&gt;&lt;/iframe&gt;</textarea>
+     </div>
+     <div class="formg">
+      <input class="cbtn" onclick="copy()" type="button" value="انسخ كود القناة">
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="single-content"> 
+   <div class="video-container"> 
+    <div class="filter-server"> 
+     <button class="button active" onclick="dodajAktywne(this);setURL('https://omedaplayer.blogspot.com/p/instructions-max-width-720px-text-align.html')">240p</button>
+      <button class="button active" onclick="dodajAktywne(this);setURL('https://omedaplayer.blogspot.com/p/blog-page_4.html')">480p</button>
+     <button class="button active" onclick="dodajAktywne(this);setURL('https://omedaplayer.blogspot.com/p/blog-page_50.html')">720p</button>
+    <button class="button active" onclick="dodajAktywne(this);setURL('https://omedaplayer.blogspot.com/p/blog-page_50.html')">1080p</button>
+    </div> 
+    <div class="video-con"> 
+     <iframe src="https://omedaplayer.blogspot.com/p/blog-page.html" allowfullscreen scrolling="no" width="100%" height="480" frameborder="0" id="iframe"></iframe> 
+    </div> 
+   </div> 
+   <style>
+
+#tme { font-family: "Cairo",tahoma; position: fixed; z-index: 99999999;  right: 25px; width: 0px; height: 0px; text-align: center; border-radius: 50%; background-color: #0088cc; cursor: pointer; } #tme_message { position: absolute; bottom: 62px; right: -10px; width: 300px; padding: 10px;  } #tme_message:after, #tme_message:before { content: ''; position: absolute; bottom: -21px; right: 23px; border-style: solid; height: 0; width: 0; border-width: 10px; border-color: transparent; }  #tme_message p { margin: 0px 0; font-size: 12px; color: #8e8e8e; text-align: right; } .clossalert { position: absolute; right: 10px;font-size: 14px; }#tme_message a {    margin: 6px 4px; font-weight: bold; color: #FFF; background: #e10000; border-radius: 10px; display: inline-block; padding: 10px;
+
+text-decoration: none; }
+
+</style> 
+   <div id="tme">
+    <div id="tme_message"> 
+     <button class="clossalert" onclick="document.getElementById(&quot;tme&quot;).style.display=&quot;none&quot;;">X</button> 
+     <p><a href="https://play.google.com/store/apps/details?id=mo.phones" rel="nofollow" role="button" target="_blank">FORGA TV Telegram </a></p> 
+    </div> 
+    <script type="text/javascript" async src="https://www.google-analytics.com/analytics.js"></script>
+    <script>
+
+function openTabs(evt,tabsyName){var i,tabcontent,tablinks;tabcontent=document.getElementsByClassName("tabcontent");for(i=0;i<tabcontent.length;i++){tabcontent[i].style.display="none";}
+
+tablinks=document.getElementsByClassName("tablinks");for(i=0;i<tablinks.length;i++){tablinks[i].className=tablinks[i].className.replace(" active","");}
+
+document.getElementById(tabsyName).style.display="block";evt.currentTarget.className+=" active";}
+
+function dodajAktywne(elem){var a=document.getElementsByTagName('button');for(i=0;i<a.length;i++){a[i].classList.remove('active')}
+
+elem.classList.add('active');}
+
+function setURL(url){document.getElementById('iframe').src=url;}
+
+</script> 
+    <script>
+
+//<![CDATA[
+
+function dodajAktywne(e){var t=document.getElementsByTagName("a");for(i=0;i<t.length;i++)t[i].classList.remove("active");e.classList.add("active")}function setURL(e){document.getElementById("iframe").src=e}
+
+function copy(){document.getElementById("copy").select(),document.execCommand("copy")}
+
+//]]>
+
+</script> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109264631-1"></script> 
+    <script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'UA-109264631-1');
+
+</script> 
+   </div>
+  </div>

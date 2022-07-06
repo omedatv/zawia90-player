@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/openplayerjs@1.12.1/dist/openplayer.min.css">
+<style>
+.op-player {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+.op-player__media {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.zawia-ply {
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    font-family: Cairo, "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+}
+img.watermark {
+    width: 12%;
+    top: 27px;
+    right: 50px;
+    z-index: 1000;
+    position: absolute;
+  }
+</style>
+<video class="op-player__media" autoplay="true" poster=" " id="video" controls playsinline>
+<source src="https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/chunklist.m3u8">
+</video>
+<script src="//cdn.jsdelivr.net/npm/openplayerjs@1.12.1/dist/openplayer.min.js"></script>
+<script>
+var player = new OpenPlayer('video');
+  player.init();
+  player.getElement().addEventListener('play', function() {
+    console.log('play');
+  });
+</script>
+
+<div class="zawia-ply" >www.zawia90.com</div>
+
+<div> <img class="watermark" src="https://i.ibb.co/VvyzsBZ/zawia90.png" alt="" /></div>

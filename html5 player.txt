@@ -1,0 +1,28 @@
+<link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+<script src="https://unpkg.com/video.js/dist/video.js"></script>
+<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+<!-- Video.js base CSS -->
+<link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
+<!-- City -->
+<link href="https://unpkg.com/@videojs/themes@1/dist/city/index.css" rel="stylesheet">
+<!-- Fantasy -->
+<link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet">
+<!-- Forest -->
+<link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet">
+<!-- Sea -->
+<link href="https://unpkg.com/@videojs/themes@1/dist/sea/index.css" rel="stylesheet">
+<div id="instructions">
+<video id="my_video_1" class="video-js vjs-theme-forest" width="1280px" height="720px"
+      controls preload="none" poster='.jpg'
+      data-setup='{""}'>
+    <source src="https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/chunklist_b1800000_t64NzIwcA==.m3u8" type="application/x-mpegURL">
+</video>
+
+<style>  
+.video-js[tabindex="-1"] { outline: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.video-js .vjs-tech { object-fit: fill;}
+.zawia-ply {font-size: 17px; color: #fff;text-align: center; font-family: Cairo, "Helvetica Neue", sans-serif; font-weight: bold;
+position: absolute; bottom: 0px; } img.watermark { width: 12%; top: 27px; right: 50px; z-index: 1000; position: absolute;}
+</style> 
+<div class="zawia-ply" >www.zawia90.com</div>
+<div> <img class="watermark" src="https://i.ibb.co/VvyzsBZ/zawia90.png" alt="" /></div>
